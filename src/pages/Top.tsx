@@ -1,7 +1,8 @@
 import React from "react";
+import Header from "../components/organisms/Header";
 
 function Top() {
-  return <div>Top</div>;
+  return <Header></Header>;
 }
 
 export default Top;

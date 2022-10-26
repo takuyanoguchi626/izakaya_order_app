@@ -6,11 +6,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {(() => {
-          for (const route of router) {
-            return <Route path={route.path} element={route.element}></Route>;
-          }
-        })()}
+        {router.map((route) => {
+          return <Route path={route.path} element={route.element}></Route>;
+        })}
       </Routes>
     </BrowserRouter>
   );

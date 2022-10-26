@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "css-wipe";
+import "./styles/css/style.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

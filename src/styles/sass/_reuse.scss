@@ -1,0 +1,22 @@
+.logo {
+  &__img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    width: 50px;
+    margin-right: 5px;
+    img {
+      width: 100%;
+      vertical-align: bottom;
+    }
+  }
+}

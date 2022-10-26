@@ -1,0 +1,11 @@
+.header {
+  background-color: rgb(244, 181, 65);
+  &__inner {
+    display: flex;
+  }
+  &__logo {
+    width: 65px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+}

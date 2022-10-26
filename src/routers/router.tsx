@@ -11,7 +11,7 @@ export const router = [
     element: <Top></Top>,
   },
   {
-    path: "login",
+    path: "/login",
     element: <Login></Login>,
   },
   {

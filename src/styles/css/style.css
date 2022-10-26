@@ -1,0 +1,32 @@
+.logo__img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  width: 50px;
+  margin-right: 5px;
+}
+.nav__item img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.header {
+  background-color: rgb(244, 181, 65);
+}
+.header__inner {
+  display: flex;
+}
+.header__logo {
+  width: 65px;
+  margin-right: auto;
+  margin-left: 0;
+}
