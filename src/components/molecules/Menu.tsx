@@ -6,42 +6,22 @@ type props = {
 };
 
 function Menu(props: props) {
-  const menuList = [
-    {
-      img: "drink.jpg",
-      name: "おさけ",
-    },
-    {
-      img: "drink.jpg",
-      name: "おさけ",
-    },
-    {
-      img: "drink.jpg",
-      name: "おさけ",
-    },
-    {
-      img: "drink.jpg",
-      name: "おさけ",
-    },
-  ];
+  const menuList = ["sake.jpg", "tsumami.webp", "ippin.webp", "shime.webp"];
 
   return (
-    <>
-      {menuList.map((menu) => {
-        return (
-          <div className={"menu " + props.addClass}>
-            <ul className="menu__list">
-              <li className="menu__item">
-                <a href="">
-                  <Logo logo_img={menu.img}></Logo>
-                  <h2>{menu.name}</h2>
-                </a>
-              </li>
-            </ul>
-          </div>
-        );
-      })}
-    </>
+    <div className={"menu " + props.addClass}>
+      <ul className="menu__list">
+        {menuList.map((menu) => {
+          return (
+            <li className="menu__item">
+              <a href="">
+                <Logo logo_img={menu} addClass={"menu__logo"}></Logo>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 }
 

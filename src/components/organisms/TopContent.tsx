@@ -9,7 +9,9 @@ function TopContent() {
         <figure className="top__img-wrapper">
           <img className="top__img" src="./imgs/top_image.jpg" alt="" />
         </figure>
-        <Menu addClass="top__menu"></Menu>
+        <div className="top__menu-wrapper">
+          <Menu addClass="top__menu"></Menu>
+        </div>
       </div>
     </main>
   );
