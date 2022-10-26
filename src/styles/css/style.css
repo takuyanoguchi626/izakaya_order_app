@@ -1,5 +1,6 @@
 .logo__img {
   width: 100%;
+  height: 100%;
   vertical-align: bottom;
 }
 
@@ -29,4 +30,37 @@
   width: 65px;
   margin-right: auto;
   margin-left: 0;
+}
+
+.top {
+  height: 100%;
+  background-color: rgb(224, 211, 169);
+}
+.top__img {
+  width: 100%;
+}
+.top__menu .menu__list {
+  margin: 20px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.top__menu .menu__item {
+  margin: auto;
+}
+.top__menu .menu__logo {
+  width: 140px;
+  height: 140px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }

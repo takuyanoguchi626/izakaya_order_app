@@ -1,0 +1,22 @@
+.top {
+  height: 100%;
+  background-color: rgb(224, 211, 169);
+  &__img {
+    width: 100%;
+  }
+  &__menu {
+    .menu__list {
+      margin: 20px 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    .menu__item {
+      margin: auto;
+    }
+    .menu__logo {
+      width: 140px;
+      height: 140px;
+    }
+  }
+}
