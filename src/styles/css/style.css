@@ -3,6 +3,9 @@
   height: 100%;
   vertical-align: bottom;
 }
+.logo__kaoru {
+  width: 500px;
+}
 
 .nav {
   display: flex;
@@ -22,6 +25,7 @@
 
 .header {
   background-color: rgb(244, 181, 65);
+  height: 8%;
 }
 .header__inner {
   display: flex;
@@ -32,8 +36,13 @@
   margin-left: 0;
 }
 
+.footer {
+  background-color: rgb(244, 181, 65);
+  height: 10%;
+}
+
 .top {
-  height: 100%;
+  height: 90%;
   background-color: rgb(224, 211, 169);
 }
 .top__img {
